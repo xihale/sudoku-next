@@ -96,12 +96,6 @@ export default function Home() {
 
   return (
     <div className="mt-4 ml-8 select-none">
-      <button
-        className="text-2xl mr-4"
-        onClick={() => setMap(Array(9).fill(Array(9).fill(undefined)))}
-      >
-        Clean
-      </button>
       <Matrix map={map} />
       <Matrix map={ansd} />
     </div>
