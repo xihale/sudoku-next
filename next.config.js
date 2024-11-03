@@ -2,7 +2,7 @@
 const nextConfig = {
   "output": "export",
   "distDir": "dist",
-  "basePath": "/sudoku-next",
+  "basePath": "/",
 }
 
 module.exports = nextConfig
